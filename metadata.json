@@ -1,0 +1,96 @@
+{
+    "bands": {
+        "rgba": {
+            "url": "rgba.png"
+        },
+        "depth_midas": {
+            "url": "depth_midas.png",
+            "values": {
+                "min": {
+                    "value": 2.0990023612976074,
+                    "type": "float"
+                },
+                "max": {
+                    "value": 23.749610900878906,
+                    "type": "float"
+                }
+            }
+        },
+        "depth_marigold": {
+            "url": "depth_marigold.png",
+            "values": {
+                "min": {
+                    "value": -0.0007198458770290017,
+                    "type": "float"
+                },
+                "max": {
+                    "value": 0.9999622702598572,
+                    "type": "float"
+                }
+            }
+        },
+        "depth_zoedepth": {
+            "url": "depth_zoedepth.png",
+            "values": {
+                "min": {
+                    "value": 1.1793299913406372,
+                    "type": "float"
+                },
+                "max": {
+                    "value": 3.40049409866333,
+                    "type": "float"
+                }
+            }
+        },
+        "depth_patchfusion": {
+            "url": "depth_patchfusion.png",
+            "values": {
+                "min": {
+                    "value": 1.3350316286087036,
+                    "type": "float"
+                },
+                "max": {
+                    "value": 6.005880832672119,
+                    "type": "float"
+                }
+            }
+        },
+        "mask": {
+            "url": "mask.png",
+            "ids": [
+                "person",
+                "bird",
+                "cat",
+                "dog",
+                "horse",
+                "sheep",
+                "cow",
+                "elephant",
+                "bear",
+                "zebra",
+                "giraffe"
+            ]
+        },
+        "depth_anything": {
+            "url": "depth_anything.png",
+            "values": {
+                "min": {
+                    "value": 5.9342498779296875,
+                    "type": "float"
+                },
+                "max": {
+                    "value": 231.28878784179688,
+                    "type": "float"
+                }
+            }
+        }
+    },
+    "width": 890,
+    "height": 501,
+    "principal_point": [
+        445.0,
+        250.5
+    ],
+    "focal_length": 667.7499532010467,
+    "field_of_view": 41.12619723532873
+}
