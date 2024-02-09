@@ -1,0 +1,84 @@
+{
+    "bands": {
+        "rgba": {
+            "url": "rgba.mp4"
+        },
+        "mask": {
+            "url": "mask.mp4",
+            "ids": [
+                "person",
+                "bird",
+                "cat",
+                "dog",
+                "horse",
+                "sheep",
+                "cow",
+                "elephant",
+                "bear",
+                "zebra",
+                "giraffe"
+            ]
+        },
+        "depth_anything": {
+            "url": "depth_anything.mp4",
+            "folder": "depth_anything",
+            "values": {
+                "min": {
+                    "type": "float",
+                    "url": "depth_anything_min.csv"
+                },
+                "max": {
+                    "type": "float",
+                    "url": "depth_anything_max.csv"
+                }
+            }
+        },
+        "depth": {
+            "url": "depth_anything.mp4",
+            "folder": "depth_anything",
+            "values": {
+                "min": {
+                    "type": "float",
+                    "url": "depth_anything_min.csv"
+                },
+                "max": {
+                    "type": "float",
+                    "url": "depth_anything_max.csv"
+                }
+            }
+        },
+        "flow_gmflow": {
+            "url": "flow_gmflow.mp4",
+            "values": {
+                "dist": {
+                    "type": "float",
+                    "url": "flow_gmflow.csv"
+                }
+            }
+        },
+        "flow": {
+            "url": "flow_gmflow.mp4",
+            "values": {
+                "dist": {
+                    "type": "float",
+                    "url": "flow_gmflow.csv"
+                }
+            }
+        },
+        "camera_pose": {
+            "url": "camera_pose.mp4"
+        }
+    },
+    "width": 1280,
+    "height": 720,
+    "fps": 24.0,
+    "frames": 111,
+    "duration": 4.625,
+    "principal_point": [
+        1250.2950735320314,
+        640.0
+    ],
+    "focal_length": 1250.2950735320314,
+    "field_of_view": 28.71217555532455,
+    "model": "SIMPLE_PINHOLE"
+}
